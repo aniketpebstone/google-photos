@@ -32,7 +32,7 @@ public class GooglePhotosController {
 	}
 	
 	@GetMapping(value="/status")
-	public ResponseEntity<?> placeStockOrderForMobile(){
+	public ResponseEntity<?> getStatus(){
 		return ResponseEntity.ok().build();
 	}
 	
